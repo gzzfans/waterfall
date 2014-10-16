@@ -14,4 +14,18 @@
 </pre>
 
 
+# 插件配置
+
+<pre>
+var opt = {	//用户自定义配置
+   cellWidth: 190,			//单元格宽度
+   cellMargin: 10,			//单元格边距
+   showFade: true,			//渐显效果
+   showFadeSpeed: 600,			//渐显效果速度
+   insertToShort: true,			//往短的列插入，不设置等待图片时会有误差
+   waitImage:true			//等待图片加载完再插入，因网络问题会造成卡
+ 
+};
+</pre>
+
 Documentation: [En](http://wlog.cn/waterfall/index.html) [中文](http://wlog.cn/waterfall/index-zh.html)
